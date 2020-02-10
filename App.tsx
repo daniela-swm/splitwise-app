@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Users from "./Users";
+import UsersList from "./UsersList";
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>Welcome to Splitwise App</Text>
-        <Users />
+        <UsersList />
       </View>
     );
   }

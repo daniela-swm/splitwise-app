@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 
-export default class Users extends React.Component {
+export default class UsersList extends React.Component {
   render() {
     return (
       <View>
