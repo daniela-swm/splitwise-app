@@ -1,12 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
+import Users from "./Users";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Welcome to Splitwise App</Text>
-    </View>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>Welcome to Splitwise App</Text>
+        <Users />
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
